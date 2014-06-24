@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D130663E1959E77F00B0AAFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D130663D1959E77F00B0AAFA /* Foundation.framework */; };
+		D13066401959E77F00B0AAFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D130663F1959E77F00B0AAFA /* CoreGraphics.framework */; };
+		D13066421959E77F00B0AAFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13066411959E77F00B0AAFA /* UIKit.framework */; };
+		D13066481959E77F00B0AAFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D13066461959E77F00B0AAFA /* InfoPlist.strings */; };
+		D130664A1959E77F00B0AAFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D13066491959E77F00B0AAFA /* main.m */; };
+		D130664E1959E77F00B0AAFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D130664D1959E77F00B0AAFA /* AppDelegate.m */; };
+		D13066511959E77F00B0AAFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D130664F1959E77F00B0AAFA /* Main.storyboard */; };
+		D13066541959E77F00B0AAFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13066531959E77F00B0AAFA /* ViewController.m */; };
+		D13066561959E77F00B0AAFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13066551959E77F00B0AAFA /* Images.xcassets */; };
+		D130665D1959E78000B0AAFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D130665C1959E78000B0AAFA /* XCTest.framework */; };
+		D130665E1959E78000B0AAFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D130663D1959E77F00B0AAFA /* Foundation.framework */; };
+		D130665F1959E78000B0AAFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13066411959E77F00B0AAFA /* UIKit.framework */; };
+		D13066671959E78000B0AAFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D13066651959E78000B0AAFA /* InfoPlist.strings */; };
+		D13066691959E78000B0AAFA /* SpeedTapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D13066681959E78000B0AAFA /* SpeedTapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D13066601959E78000B0AAFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D13066321959E77F00B0AAFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D13066391959E77F00B0AAFA;
+			remoteInfo = SpeedTap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D130663A1959E77F00B0AAFA /* SpeedTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D130663D1959E77F00B0AAFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D130663F1959E77F00B0AAFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D13066411959E77F00B0AAFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D13066451959E77F00B0AAFA /* SpeedTap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeedTap-Info.plist"; sourceTree = "<group>"; };
+		D13066471959E77F00B0AAFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D13066491959E77F00B0AAFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D130664B1959E77F00B0AAFA /* SpeedTap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeedTap-Prefix.pch"; sourceTree = "<group>"; };
+		D130664C1959E77F00B0AAFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D130664D1959E77F00B0AAFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D13066501959E77F00B0AAFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D13066521959E77F00B0AAFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D13066531959E77F00B0AAFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D13066551959E77F00B0AAFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D130665B1959E78000B0AAFA /* SpeedTapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D130665C1959E78000B0AAFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D13066641959E78000B0AAFA /* SpeedTapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeedTapTests-Info.plist"; sourceTree = "<group>"; };
+		D13066661959E78000B0AAFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D13066681959E78000B0AAFA /* SpeedTapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedTapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D13066371959E77F00B0AAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13066401959E77F00B0AAFA /* CoreGraphics.framework in Frameworks */,
+				D13066421959E77F00B0AAFA /* UIKit.framework in Frameworks */,
+				D130663E1959E77F00B0AAFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13066581959E78000B0AAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D130665D1959E78000B0AAFA /* XCTest.framework in Frameworks */,
+				D130665F1959E78000B0AAFA /* UIKit.framework in Frameworks */,
+				D130665E1959E78000B0AAFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D13066311959E77F00B0AAFA = {
+			isa = PBXGroup;
+			children = (
+				D13066431959E77F00B0AAFA /* SpeedTap */,
+				D13066621959E78000B0AAFA /* SpeedTapTests */,
+				D130663C1959E77F00B0AAFA /* Frameworks */,
+				D130663B1959E77F00B0AAFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D130663B1959E77F00B0AAFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D130663A1959E77F00B0AAFA /* SpeedTap.app */,
+				D130665B1959E78000B0AAFA /* SpeedTapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D130663C1959E77F00B0AAFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D130663D1959E77F00B0AAFA /* Foundation.framework */,
+				D130663F1959E77F00B0AAFA /* CoreGraphics.framework */,
+				D13066411959E77F00B0AAFA /* UIKit.framework */,
+				D130665C1959E78000B0AAFA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D13066431959E77F00B0AAFA /* SpeedTap */ = {
+			isa = PBXGroup;
+			children = (
+				D130664C1959E77F00B0AAFA /* AppDelegate.h */,
+				D130664D1959E77F00B0AAFA /* AppDelegate.m */,
+				D130664F1959E77F00B0AAFA /* Main.storyboard */,
+				D13066521959E77F00B0AAFA /* ViewController.h */,
+				D13066531959E77F00B0AAFA /* ViewController.m */,
+				D13066551959E77F00B0AAFA /* Images.xcassets */,
+				D13066441959E77F00B0AAFA /* Supporting Files */,
+			);
+			path = SpeedTap;
+			sourceTree = "<group>";
+		};
+		D13066441959E77F00B0AAFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D13066451959E77F00B0AAFA /* SpeedTap-Info.plist */,
+				D13066461959E77F00B0AAFA /* InfoPlist.strings */,
+				D13066491959E77F00B0AAFA /* main.m */,
+				D130664B1959E77F00B0AAFA /* SpeedTap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D13066621959E78000B0AAFA /* SpeedTapTests */ = {
+			isa = PBXGroup;
+			children = (
+				D13066681959E78000B0AAFA /* SpeedTapTests.m */,
+				D13066631959E78000B0AAFA /* Supporting Files */,
+			);
+			path = SpeedTapTests;
+			sourceTree = "<group>";
+		};
+		D13066631959E78000B0AAFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D13066641959E78000B0AAFA /* SpeedTapTests-Info.plist */,
+				D13066651959E78000B0AAFA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D13066391959E77F00B0AAFA /* SpeedTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D130666C1959E78000B0AAFA /* Build configuration list for PBXNativeTarget "SpeedTap" */;
+			buildPhases = (
+				D13066361959E77F00B0AAFA /* Sources */,
+				D13066371959E77F00B0AAFA /* Frameworks */,
+				D13066381959E77F00B0AAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedTap;
+			productName = SpeedTap;
+			productReference = D130663A1959E77F00B0AAFA /* SpeedTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D130665A1959E78000B0AAFA /* SpeedTapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D130666F1959E78000B0AAFA /* Build configuration list for PBXNativeTarget "SpeedTapTests" */;
+			buildPhases = (
+				D13066571959E78000B0AAFA /* Sources */,
+				D13066581959E78000B0AAFA /* Frameworks */,
+				D13066591959E78000B0AAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D13066611959E78000B0AAFA /* PBXTargetDependency */,
+			);
+			name = SpeedTapTests;
+			productName = SpeedTapTests;
+			productReference = D130665B1959E78000B0AAFA /* SpeedTapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D13066321959E77F00B0AAFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Instil;
+				TargetAttributes = {
+					D130665A1959E78000B0AAFA = {
+						TestTargetID = D13066391959E77F00B0AAFA;
+					};
+				};
+			};
+			buildConfigurationList = D13066351959E77F00B0AAFA /* Build configuration list for PBXProject "SpeedTap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D13066311959E77F00B0AAFA;
+			productRefGroup = D130663B1959E77F00B0AAFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D13066391959E77F00B0AAFA /* SpeedTap */,
+				D130665A1959E78000B0AAFA /* SpeedTapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D13066381959E77F00B0AAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13066561959E77F00B0AAFA /* Images.xcassets in Resources */,
+				D13066481959E77F00B0AAFA /* InfoPlist.strings in Resources */,
+				D13066511959E77F00B0AAFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13066591959E78000B0AAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13066671959E78000B0AAFA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D13066361959E77F00B0AAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13066541959E77F00B0AAFA /* ViewController.m in Sources */,
+				D130664E1959E77F00B0AAFA /* AppDelegate.m in Sources */,
+				D130664A1959E77F00B0AAFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13066571959E78000B0AAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13066691959E78000B0AAFA /* SpeedTapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D13066611959E78000B0AAFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D13066391959E77F00B0AAFA /* SpeedTap */;
+			targetProxy = D13066601959E78000B0AAFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D13066461959E77F00B0AAFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D13066471959E77F00B0AAFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D130664F1959E77F00B0AAFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D13066501959E77F00B0AAFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D13066651959E78000B0AAFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D13066661959E78000B0AAFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D130666A1959E78000B0AAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D130666B1959E78000B0AAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D130666D1959E78000B0AAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeedTap/SpeedTap-Prefix.pch";
+				INFOPLIST_FILE = "SpeedTap/SpeedTap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D130666E1959E78000B0AAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeedTap/SpeedTap-Prefix.pch";
+				INFOPLIST_FILE = "SpeedTap/SpeedTap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D13066701959E78000B0AAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpeedTap.app/SpeedTap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeedTap/SpeedTap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpeedTapTests/SpeedTapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D13066711959E78000B0AAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpeedTap.app/SpeedTap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeedTap/SpeedTap-Prefix.pch";
+				INFOPLIST_FILE = "SpeedTapTests/SpeedTapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D13066351959E77F00B0AAFA /* Build configuration list for PBXProject "SpeedTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D130666A1959E78000B0AAFA /* Debug */,
+				D130666B1959E78000B0AAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D130666C1959E78000B0AAFA /* Build configuration list for PBXNativeTarget "SpeedTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D130666D1959E78000B0AAFA /* Debug */,
+				D130666E1959E78000B0AAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D130666F1959E78000B0AAFA /* Build configuration list for PBXNativeTarget "SpeedTapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13066701959E78000B0AAFA /* Debug */,
+				D13066711959E78000B0AAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D13066321959E77F00B0AAFA /* Project object */;
+}
