@@ -7,23 +7,44 @@
 //
 
 #import "ViewController.h"
+#import "Stopwatch.h"
 
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (IBAction)tappedGoButton:(UIButton*)goButton {
+    [_goButton setHidden:YES];
+    [_stopButton setHidden:NO];
+    _stopwatch = [[Stopwatch alloc] initWithTargetTime:5.0f];
+    [_stopwatch start];
+    
+    [_stopwatch addObserver:self
+                 forKeyPath:@"elapsedTime"
+                    options:NSKeyValueObservingOptionNew
+                    context:nil];
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)observeValueForKeyPath:(NSString *)keyPath
+                      ofObject:(id)object
+                        change:(NSDictionary *)change
+                       context:(void *)context {
+    NSString *elapsedTimeText = [NSString stringWithFormat:@"%0.2f", [_stopwatch elapsedTime]];
+    [_elapsedTimeLabel setText:elapsedTimeText];
+}
+
+- (IBAction)tappedStopButton:(UIButton*)stopButton {
+    [_stopButton setHidden:YES];
+    [_goButton setHidden:NO];
+    [_stopwatch stop];
+    [self displayScore];
+}
+
+- (void)displayScore {
+    double timeDifference = fabs([_stopwatch elapsedTime] - 5.0f);
+    NSString *resultsString = [NSString stringWithFormat:@"You were %0.2f seconds out!", timeDifference];
+    [_resultsLabel setText:resultsString];
+    [_resultsLabel setHidden:NO];
 }
 
 @end

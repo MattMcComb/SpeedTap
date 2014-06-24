@@ -21,6 +21,7 @@
 		D130665F1959E78000B0AAFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13066411959E77F00B0AAFA /* UIKit.framework */; };
 		D13066671959E78000B0AAFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D13066651959E78000B0AAFA /* InfoPlist.strings */; };
 		D13066691959E78000B0AAFA /* SpeedTapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D13066681959E78000B0AAFA /* SpeedTapTests.m */; };
+		D13066741959F99B00B0AAFA /* Stopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = D13066731959F99B00B0AAFA /* Stopwatch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D13066641959E78000B0AAFA /* SpeedTapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeedTapTests-Info.plist"; sourceTree = "<group>"; };
 		D13066661959E78000B0AAFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D13066681959E78000B0AAFA /* SpeedTapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedTapTests.m; sourceTree = "<group>"; };
+		D13066721959F99B00B0AAFA /* Stopwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stopwatch.h; sourceTree = "<group>"; };
+		D13066731959F99B00B0AAFA /* Stopwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stopwatch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				D130664F1959E77F00B0AAFA /* Main.storyboard */,
 				D13066521959E77F00B0AAFA /* ViewController.h */,
 				D13066531959E77F00B0AAFA /* ViewController.m */,
+				D13066721959F99B00B0AAFA /* Stopwatch.h */,
+				D13066731959F99B00B0AAFA /* Stopwatch.m */,
 				D13066551959E77F00B0AAFA /* Images.xcassets */,
 				D13066441959E77F00B0AAFA /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				D13066541959E77F00B0AAFA /* ViewController.m in Sources */,
 				D130664E1959E77F00B0AAFA /* AppDelegate.m in Sources */,
 				D130664A1959E77F00B0AAFA /* main.m in Sources */,
+				D13066741959F99B00B0AAFA /* Stopwatch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
